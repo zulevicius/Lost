@@ -1,0 +1,10 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="tab1" title="Post Form">
+			<Require src="PostForm" id="postFormC"/>
+		</Tab>
+		<Tab title="Review Posts">
+			<Require src="ReviewPosts" id="reviewPostsC"></Require>
+		</Tab>
+	</TabGroup>
+</Alloy>

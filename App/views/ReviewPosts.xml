@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container" title="List Todo">
+		<Button id="refreshListBtn" onClick="refreshList">Refresh</Button>
+		<ListView id="listView" defaultItemTemplate="template">
+			
+            <!-- The Templates tag sets the ListView's templates property -->
+            <Templates>
+                <!-- Define your item templates within the Templates tags or use the
+                     Require tag to include a view that only contains an ItemTemplate -->
+				<ItemTemplate name="template">
+                    <ImageView bindId="pic" id="icon" />
+                    <Label bindId="info" id="title" />
+                    <Label bindId="es_info" id="subtitle" />
+                </ItemTemplate>
+            </Templates>
+            
+            <ListSection id="mainSection"></ListSection>
+    	</ListView>
+	</Window>
+</Alloy>

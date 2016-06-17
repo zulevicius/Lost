@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container" title="Edit Todo">
+		<View>
+			<Label on>Name</Label>
+			<TextField id="nameTxt" hintText="Name"></TextField>
+		</View>
+		<View>
+			<Label>Surname</Label>
+			<TextField id="surnameTxt" hintText="Surname"></TextField>
+		</View>
+		<View>
+			<Label>Telephone</Label>
+			<TextField id="telephoneTxt" hintText="Number"></TextField>
+		</View>
+		<View>
+			<ImageView id="thumb"
+				image="/images/default_profile.jpg"
+				onClick="chooseImage"></ImageView>
+			<Button id="addPostBtn" onClick="addPost">ADD POST</Button>
+		</View>
+		<View>
+			<Button id="deletePostBtn" onClick="deletePost">DELETE</Button>
+		</View>
+	</Window>
+</Alloy>
